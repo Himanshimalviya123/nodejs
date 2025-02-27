@@ -1,0 +1,67 @@
+{
+    "hotel": [
+        {
+            "name":"himanshi",
+            "age":"20",
+            "adhar":"267649308",
+            "mobile no.":"49017750914",
+            "destination":"bhopal",
+            "price":"500",
+            "person":"2"
+        },
+        {
+            "name":"manshi",
+            "age":"21",
+            "adhar":"267649308",
+            "mobile no.":"49017750914",
+            "destination":"pune",
+            "price":"500",
+            "person":"5"
+        },
+        {
+            "name":"renu",
+            "age":"25",
+            "adhar":"2672930890",
+            "mobile no.":"49013450914",
+            "destination":"chennai",
+            "price":"500",
+            "person":"2"
+        },
+        {
+            "name":"pinki",
+            "age":"23",
+            "adhar":"2649324208",
+            "mobile no.":"49017750914",
+            "destination":"bhopal",
+            "price":"500",
+            "person":"4"
+        },
+        {
+            "name":"likhit",
+            "age":"20",
+            "adhar":"2676465808",
+            "mobile no.":"4901775673234",
+            "destination":"pune",
+            "price":"500",
+            "person":"5"
+        },
+        {
+            "name":"shubham",
+            "age":"26",
+            "adhar":"2666874908",
+            "mobile no.":"125354750914",
+            "destination":"indore",
+            "price":"500",
+            "person":"2"
+        },
+        {
+            "name":"sakshi",
+            "age":"16",
+            "adhar":"2676493308",
+            "mobile no.":"490177374644",
+            "destination":"london",
+            "price":"500",
+            "person":"3"
+        }
+    ]
+}
