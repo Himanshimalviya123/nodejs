@@ -25,3 +25,10 @@ data.map((e)=>{
     </tr>
     `})
 }
+
+let del=(id)=>{
+    let url='http://localhost:3000/hotel';
+
+    fetch(url,{method:"DELETE"});
+
+}
