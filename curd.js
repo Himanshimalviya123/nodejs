@@ -32,3 +32,32 @@ let del=(id)=>{
     fetch(url,{method:"DELETE"});
 
 }
+// =============================================================================================================
+let ins=()=>{
+    let inpnname=document.querySelector("#name").value
+    let inpnage=document.querySelector("#age").value
+    let inpnadhar=document.querySelector("#adhar").value
+    let inpnnumber=document.querySelector("#number").value
+    let inpndate=document.querySelector("#date").value
+    let inpndestination=document.querySelector("#destination").value
+    let inpnperson=document.querySelector("#person").value
+    
+}
+let url='http://localhost:3000/hotel'
+fetch(url,{
+    method:"POST",
+    headers:{
+        "content-type":"application/json"
+    },
+    body:JSON.stringify({
+        "name":inpnname,
+        "age": inpnage,
+        "adhar":inpnadhar,
+        "number":inpnnumber,
+        "date":inpndate,
+        "destination":inpndestination,
+        "person":inpnperson
+    })
+})
+
+
